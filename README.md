@@ -21,6 +21,10 @@ A credential-free AI security lab that turns abstract model risk into CI-friendl
 - **Verification:** Run `python3 -m unittest discover -s tests` and `python3 -m redteam_lab.scanner examples/cases.json`.
 - **Commercial read:** Package this as AI safety CI setup, prompt-injection regression testing, or a red-team workshop starter.
 
+## Commercialization Playbook
+
+- [Monetization and GTM playbook](docs/monetization-playbook.md) maps the repository to buyer segments, offer ladder, pricing hypotheses, proof gates, and risk boundaries.
+
 ## What It Demonstrates
 
 - attack case fixtures
