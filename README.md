@@ -2,6 +2,18 @@
 
 Self-contained test harness for prompt-injection, secret-leakage, and unsafe tool-use scenarios. The lab uses deterministic policy checks and synthetic cases so it can run in CI without external services.
 
+## Product and Review Surface
+
+A credential-free AI security lab that turns abstract model risk into CI-friendly tests teams can actually run.
+
+| Lens | Definition |
+|---|---|
+| Buyer or user | AI platform teams, security engineers, product teams shipping AI features, and governance reviewers. |
+| Commercial route | Sell safety-check bundles, red-team workshops, CI gate setup, and prompt-injection readiness reviews. |
+| Review signal | Prompt injection, secret leakage, unsafe tool use checks, deterministic fixtures, and reportable safety outputs. |
+| Safety boundary | Credential-free by design; extend with customer-specific policies only after scoping and approval. |
+| Fast proof | Run the safety checks locally and inspect generated reports and failing-case examples. |
+
 ## What It Demonstrates
 
 - attack case fixtures
