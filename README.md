@@ -14,6 +14,13 @@ A credential-free AI security lab that turns abstract model risk into CI-friendl
 | Safety boundary | Credential-free by design; extend with customer-specific policies only after scoping and approval. |
 | Fast proof | Run the safety checks locally and inspect generated reports and failing-case examples. |
 
+## Reviewer Fast Path
+
+- **First minute:** Start with the policy categories, then open the generated Markdown report.
+- **Local demo:** Run `python3 scripts/run_scan.py` to create a credential-free red-team report.
+- **Verification:** Run `python3 -m unittest discover -s tests` and `python3 -m redteam_lab.scanner examples/cases.json`.
+- **Commercial read:** Package this as AI safety CI setup, prompt-injection regression testing, or a red-team workshop starter.
+
 ## What It Demonstrates
 
 - attack case fixtures
