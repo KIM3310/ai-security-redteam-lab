@@ -12,7 +12,7 @@ This is the buyer-ready version of the repository. It turns the technical proof 
 | Buyer | Security teams and AI product teams shipping model-backed features. |
 | Pain wedge | Credential-free red-team fixtures for prompt injection, leakage, and unsafe tool pressure. |
 | Front-door offer | AI red-team workshop |
-| Entry scope | $3k-$9k workshop |
+| Entry scope | Scope after buyer intake |
 | Proof before pitch | Scanner tests pass |
 | Next buyer action | Review one proof artifact, then choose diagnostic, workshop, pilot, support, or revival path. |
 
@@ -20,9 +20,9 @@ This is the buyer-ready version of the repository. It turns the technical proof 
 
 | Offer | Scope assumption | Buyer-facing scope |
 |---|---|---|
-| AI red-team workshop | $3k-$9k workshop | Publish 20-case public report |
-| Prompt-injection regression pack | $10k-$35k custom policy pack | Create policy customization brief |
-| CI safety gate setup | $2k-$8k/month regression maintenance | Offer fixed-scope red-team sprint |
+| AI red-team workshop | Scope after buyer intake | Publish 20-case public report |
+| Prompt-injection regression pack | Scope after buyer intake | Create policy customization brief |
+| CI safety gate setup | Scope after buyer intake | Offer fixed-scope red-team sprint |
 
 ## Close Path
 

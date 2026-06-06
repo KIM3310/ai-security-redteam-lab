@@ -49,9 +49,9 @@ This note specializes the repository for service launch. It combines product str
 
 ## Conversion Path
 
-- Risk-reversing entry: AI red-team workshop ($3k-$9k workshop) with one acceptance metric.
-- Pilot: Prompt-injection regression pack ($10k-$35k custom policy pack) using buyer-approved data and named operators.
-- Recurring layer: CI safety gate setup ($2k-$8k/month regression maintenance) for monitoring, governance, support, or managed review.
+- Risk-reversing entry: AI red-team workshop (scope after buyer intake) with one acceptance metric.
+- Pilot: Prompt-injection regression pack (scope after buyer intake) using buyer-approved data and named operators.
+- Recurring layer: CI safety gate setup (scope after buyer intake) for monitoring, governance, support, or managed review.
 
 ## Scope Frame
 

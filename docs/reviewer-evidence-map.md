@@ -47,9 +47,9 @@ Use this page as the short path through the repository. It keeps the review grou
 
 | Possible offer | Working scope assumption |
 |---|---|
-| AI red-team workshop | $3k-$9k workshop |
-| Prompt-injection regression pack | $10k-$35k custom policy pack |
-| CI safety gate setup | $2k-$8k/month regression maintenance |
+| AI red-team workshop | Scope after buyer intake |
+| Prompt-injection regression pack | Scope after buyer intake |
+| CI safety gate setup | Scope after buyer intake |
 
 ## Boundaries
 
