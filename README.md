@@ -1,5 +1,10 @@
 # AI Security Redteam Lab
 
+## Live Demo
+
+- [Open the public GitHub Pages demo](https://kim3310.github.io/ai-security-redteam-lab/)
+- Scope: credential-free, synthetic-data demo for reviewers and evaluators.
+
 Self-contained test harness for prompt-injection, secret-leakage, and unsafe tool-use scenarios. The lab uses deterministic policy checks and synthetic cases so it can run in CI without external services.
 
 ## Product and Review Surface
