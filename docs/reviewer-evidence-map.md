@@ -43,13 +43,13 @@ Use this page as the short path through the repository. It keeps the review grou
 - Reports are generated
 - Unsafe examples are explainable
 
-## Commercial Notes
+## Review Notes
 
 | Possible offer | Working scope assumption |
 |---|---|
-| AI red-team workshop | Scope after buyer intake |
-| Prompt-injection regression pack | Scope after buyer intake |
-| CI safety gate setup | Scope after buyer intake |
+| AI red-team workshop | Scope after reviewer intake |
+| Prompt-injection regression pack | Scope after reviewer intake |
+| CI safety gate setup | Scope after reviewer intake |
 
 ## Boundaries
 

@@ -13,8 +13,8 @@ A credential-free AI security lab that turns abstract model risk into CI-friendl
 
 | Lens | Definition |
 |---|---|
-| Buyer or user | AI platform teams, security engineers, product teams shipping AI features, and governance reviewers. |
-| Commercial route | Sell safety-check bundles, red-team workshops, CI gate setup, and prompt-injection readiness reviews. |
+| Audience | AI platform teams, security engineers, product teams shipping AI features, and governance reviewers. |
+| Review path | Validate the demo, README, architecture notes, and quality gate before deeper workflow review. |
 | Review signal | Prompt injection, secret leakage, unsafe tool use checks, deterministic fixtures, and reportable safety outputs. |
 | Safety boundary | Credential-free by design; extend with customer-specific policies only after scoping and approval. |
 | Fast proof | Run the safety checks locally and inspect generated reports and failing-case examples. |
@@ -24,20 +24,16 @@ A credential-free AI security lab that turns abstract model risk into CI-friendl
 - **First minute:** Start with the policy categories, then open the generated Markdown report.
 - **Local demo:** Run `python3 scripts/run_scan.py` to create a credential-free red-team report.
 - **Verification:** Run `python3 -m unittest discover -s tests` and `python3 -m redteam_lab.scanner examples/cases.json`.
-- **Commercial read:** Package this as AI safety CI setup, prompt-injection regression testing, or a red-team workshop starter.
 
 ## Service Launch Playbook
 
-- [Service launch playbook](docs/service-launch-playbook.md) maps the repository to buyer segments, offer ladder, proof gates, proof gates, and risk boundaries.
+- [Service launch playbook](docs/service-launch-playbook.md) maps the repository to review audiences, offer ladder, proof gates, proof gates, and risk boundaries.
 
 ## Review Notes
 
 - [Review guide](docs/reviewer-evidence-map.md) summarizes the project angle, first files to inspect, verification commands, and known boundaries.
 - [Quality notes](docs/quality-gate.md) lists the local checks, CI surface, and release expectations for this repository.
-- [Service growth model](docs/service-growth-model.md) maps the project to an ethical service path, activation loop, scope logic, and growth experiments.
 - [Enterprise readiness notes](docs/enterprise-readiness.md) outlines security, data, operations, integration, and handoff expectations.
-- [Conversion UX model](docs/conversion-ux-model.md) maps the buyer path, behavioral design, UI/UX direction, scope frame, and ethical conversion guardrails.
-- [Commercial offer](docs/commercial-offer.md) packages the repository into a buyer-ready offer ladder, proof gate, outreach angle, and close path.
 
 ## What It Demonstrates
 
@@ -97,7 +93,7 @@ This repository includes a neutral cloud and AI engineering blueprint that maps 
 
 ## Enterprise Productization
 
-- [Product operating model](docs/product-operating-model.md) defines the buyer, paid wedge, trust boundary, operating checks, and service path for this repository.
+- [Product operating model](docs/product-operating-model.md) defines the reviewer, trust boundary, trust boundary, operating checks, and service path for this repository.
 
 ## Service Architecture
 
