@@ -15,7 +15,7 @@ A credential-free AI security lab that turns abstract model risk into CI-friendl
 |---|---|
 | Audience | AI platform teams, security engineers, product teams shipping AI features, and governance reviewers. |
 | Review path | Validate the demo, README, architecture notes, and quality gate before deeper workflow review. |
-| Review signal | Prompt injection, secret leakage, unsafe tool use checks, deterministic fixtures, and reportable safety outputs. |
+| Architecture signal | Prompt injection, secret leakage, unsafe tool use checks, deterministic fixtures, and reportable safety outputs. |
 | Safety boundary | Credential-free by design; extend with customer-specific policies only after scoping and approval. |
 | Fast proof | Run the safety checks locally and inspect generated reports and failing-case examples. |
 
@@ -94,6 +94,10 @@ This repository includes a neutral cloud and AI engineering blueprint that maps 
 ## Enterprise Productization
 
 - [Product operating model](docs/product-operating-model.md) defines the reviewer, trust boundary, trust boundary, operating checks, and service path for this repository.
+
+## System Architecture
+
+- [System architecture](docs/system-architecture.md) maps the runtime boundary, data/control flow, cloud or local deployment surface, and operating assumptions for this repository.
 
 ## Service Architecture
 
