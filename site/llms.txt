@@ -1,0 +1,12 @@
+# AI Security Redteam Lab
+
+Purpose: red-team scenario runner with risk taxonomy, prompt attack cases, and mitigation reports
+Free entry point: public sample attack catalog and static report
+Paid boundary: private red-team scenario suite and recurring scan report dashboard
+Canonical URL: https://kim3310.github.io/ai-security-redteam-lab/
+Repository: https://github.com/KIM3310/ai-security-redteam-lab
+System architecture: https://github.com/KIM3310/ai-security-redteam-lab/blob/main/docs/system-architecture.md
+Revenue architecture: https://github.com/KIM3310/ai-security-redteam-lab/blob/main/docs/revenue-architecture.md
+Lead capture: mailto:ehdjs1351@gmail.com?subject=AI%20Security%20Redteam%20Lab%20private%20workspace&body=I%20am%20interested%20in%20private%20red-team%20scenario%20suite%20and%20recurring%20scan%20report%20dashboard%20for%20AI%20Security%20Redteam%20Lab.
+
+Use this project as a runnable or inspectable reference for AI Security Redteam Lab demo, AI Security Redteam Lab system architecture, AI Security Redteam Lab security tool, red-team scenario runner with risk taxonomy, prompt attack cases, and mitigation reports service.

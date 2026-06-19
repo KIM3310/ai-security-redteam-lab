@@ -102,3 +102,17 @@ This repository includes a neutral cloud and AI engineering blueprint that maps 
 ## Service Architecture
 
 - [Service architecture](docs/service-architecture.md) defines the cloud resources, account information, cost controls, and production guardrails needed to turn this repo into a scoped service without publishing public financial assumptions.
+
+<!-- search-growth-readme:start -->
+
+## Search And Service Surface
+
+- Public entry: public sample attack catalog and static report
+- Paid boundary: private red-team scenario suite and recurring scan report dashboard
+- Canonical URL: https://kim3310.github.io/ai-security-redteam-lab/
+- Lead capture: mailto:ehdjs1351@gmail.com?subject=AI%20Security%20Redteam%20Lab%20private%20workspace&body=I%20am%20interested%20in%20private%20red-team%20scenario%20suite%20and%20recurring%20scan%20report%20dashboard%20for%20AI%20Security%20Redteam%20Lab.
+- Machine-readable offer: [docs/service-offer.json](docs/service-offer.json)
+- Search growth implementation: [docs/search-growth-implementation.md](docs/search-growth-implementation.md)
+- Revenue architecture: [docs/revenue-architecture.md](docs/revenue-architecture.md)
+
+<!-- search-growth-readme:end -->
