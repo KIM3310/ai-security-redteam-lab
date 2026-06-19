@@ -110,7 +110,7 @@ This repository includes a neutral cloud and AI engineering blueprint that maps 
 - Public entry: public sample attack catalog and static report
 - Paid boundary: private red-team scenario suite and recurring scan report dashboard
 - Canonical URL: https://kim3310.github.io/ai-security-redteam-lab/
-- Lead capture: mailto:ehdjs1351@gmail.com?subject=AI%20Security%20Redteam%20Lab%20private%20workspace&body=I%20am%20interested%20in%20private%20red-team%20scenario%20suite%20and%20recurring%20scan%20report%20dashboard%20for%20AI%20Security%20Redteam%20Lab.
+- Lead capture: https://github.com/KIM3310/ai-security-redteam-lab/issues/new?template=service-inquiry.yml&title=Private+workspace+inquiry%3A+AI+Security+Redteam+Lab
 - Machine-readable offer: [docs/service-offer.json](docs/service-offer.json)
 - Search growth implementation: [docs/search-growth-implementation.md](docs/search-growth-implementation.md)
 - Revenue architecture: [docs/revenue-architecture.md](docs/revenue-architecture.md)
