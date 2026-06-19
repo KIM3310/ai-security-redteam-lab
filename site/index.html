@@ -124,7 +124,7 @@
         <div class="scenario-grid" aria-label="Demo scenarios">
           <button class="scenario-button active" type="button" data-index="0" aria-pressed="true"><span>Prompt injection</span><strong>blocked</strong></button>
           <button class="scenario-button" type="button" data-index="1" aria-pressed="false"><span>Secret leakage</span><strong>0 secrets exposed</strong></button>
-          <button class="scenario-button" type="button" data-index="2" aria-pressed="false"><span>Unsafe tool route</span><strong>manual review</strong></button>
+          <button class="scenario-button" type="button" data-index="2" aria-pressed="false"><span>Unsafe tool route</span><strong>manual check</strong></button>
         </div>
         <div class="screen">
           <div class="screen-bar">
@@ -138,23 +138,23 @@
               <p id="scenario-detail">Demonstrates a malicious instruction being isolated from system policy and tool permissions.</p>
             </article>
             <article class="timeline">
-              <h3>Review flow</h3>
+              <h3>Architecture flow</h3>
               <div class="step"><b>1</b><span>Open a synthetic scenario that matches the repository's core workflow.</span></div>
               <div class="step"><b>2</b><span>Inspect the signal, boundary, and architecture-facing output without credentials.</span></div>
-              <div class="step"><b>3</b><span>Use the source repository and local verification command for implementation-level review.</span></div>
+              <div class="step"><b>3</b><span>Use the source repository and local verification command for implementation-level inspection.</span></div>
             </article>
           </div>
         </div>
       </section>
     </section>
 
-    <section class="below" aria-label="Review details">
+    <section class="below" aria-label="Architecture details">
       <article class="notice">
         <h3>Target users</h3>
         <p>Security and risk operations teams</p>
       </article>
       <article class="notice">
-        <h3>Review path</h3>
+        <h3>Architecture path</h3>
         <p>AI security assessment pack and managed implementation</p>
       </article>
       <article class="notice">
@@ -165,7 +165,7 @@
   </main>
 
   <script>
-    const scenarios = [{"title":"Prompt injection","metric":"blocked","detail":"Demonstrates a malicious instruction being isolated from system policy and tool permissions."},{"title":"Secret leakage","metric":"0 secrets exposed","detail":"Shows secret-like strings being caught by deterministic checks before response release."},{"title":"Unsafe tool route","metric":"manual review","detail":"Escalates risky tool-use intent into a attention queue instead of allowing blind execution."}];
+    const scenarios = [{"title":"Prompt injection","metric":"blocked","detail":"Demonstrates a malicious instruction being isolated from system policy and tool permissions."},{"title":"Secret leakage","metric":"0 secrets exposed","detail":"Shows secret-like strings being caught by deterministic checks before response release."},{"title":"Unsafe tool route","metric":"manual check","detail":"Escalates risky tool-use intent into a attention queue instead of allowing blind execution."}];
     const buttons = Array.from(document.querySelectorAll('.scenario-button'));
     const title = document.getElementById('scenario-title');
     const metric = document.getElementById('scenario-metric');
