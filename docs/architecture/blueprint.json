@@ -25,7 +25,7 @@
   "cloud_architecture": {
     "operating_model": "segmented ingest, least-privilege response services, audit trails, and emergency rollback boundaries",
     "patterns": [
-      "Security control plane with audit logging, isolation boundaries, and response architecture gates"
+      "Security control plane with audit logging, isolation boundaries, and response review gates"
     ],
     "landing_zone_controls": [
       "identity boundary and least-privilege service access",

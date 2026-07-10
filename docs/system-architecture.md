@@ -17,7 +17,7 @@ Repository-local proof surface for security operations and controlled automation
 
 ```mermaid
 flowchart LR
-    User["User or architecture inspection"] --> Surface["Public demo, CLI, package, or README surface"]
+    User["Security team or technical evaluator"] --> Surface["Public demo, CLI, package, or README surface"]
     Surface --> Runtime["Runtime boundary: Python service or lab runtime, GitHub Actions validation"]
     Runtime --> Control["Control plane: configuration, policies, adapters, and jobs"]
     Control --> Data["Data and artifacts: fixtures, reports, logs, exports, or model outputs"]
@@ -44,7 +44,7 @@ Operating model: segmented ingest, least-privilege response services, audit trai
 
 ### Deployment patterns
 
-- Security control plane with audit logging, isolation boundaries, and response architecture gates
+- Security control plane with audit logging, isolation boundaries, and response review gates
 
 ### Control boundaries
 
@@ -68,7 +68,7 @@ Operating model: policy-scored triage, evidence extraction, response drafting, a
 ### Engineering patterns
 
 - Map raw events into typed findings, severity labels, response actions, and audit-ready evidence bundles
-- Keep automated remediation behind explicit architecture and rollback boundaries
+- Keep automated remediation behind explicit review and rollback boundaries
 - Separate deterministic checks from model-generated output so the system remains testable without external credentials
 - Capture prompts, inputs, outputs, and decision metadata as inspectable artifacts instead of hidden side effects
 - Gate model-assisted actions with policy, confidence, and fallback states before they reach an operator path
@@ -85,7 +85,7 @@ Operating model: policy-scored triage, evidence extraction, response drafting, a
 - unsafe tool execution
 - secret exposure
 - alert fatigue
-- unapproved automated response
+- unreviewed automated response
 
 ## Attached Architecture References
 

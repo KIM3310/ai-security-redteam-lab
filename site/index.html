@@ -219,7 +219,7 @@
             <article class="timeline">
               <h3>Architecture flow</h3>
               <div class="step"><b>1</b><span>Open a synthetic scenario that matches the repository's core workflow.</span></div>
-              <div class="step"><b>2</b><span>Inspect the signal, boundary, and architecture-facing output without credentials.</span></div>
+              <div class="step"><b>2</b><span>Inspect the signal, boundary, and stakeholder-facing output without credentials.</span></div>
               <div class="step"><b>3</b><span>Use the source repository and local verification command for implementation-level inspection.</span></div>
             </article>
           </div>
@@ -261,7 +261,7 @@
 </main>
 
   <script>
-    const scenarios = [{"title":"Prompt injection","metric":"blocked","detail":"Demonstrates a malicious instruction being isolated from system policy and tool permissions."},{"title":"Secret leakage","metric":"0 secrets exposed","detail":"Shows secret-like strings being caught by deterministic checks before response release."},{"title":"Unsafe tool route","metric":"manual check","detail":"Escalates risky tool-use intent into a attention queue instead of allowing blind execution."}];
+    const scenarios = [{"title":"Prompt injection","metric":"blocked","detail":"Demonstrates a malicious instruction being isolated from system policy and tool permissions."},{"title":"Secret leakage","metric":"0 secrets exposed","detail":"Shows secret-like strings being caught by deterministic checks before response release."},{"title":"Unsafe tool route","metric":"manual check","detail":"Escalates risky tool-use intent into a security review queue instead of allowing blind execution."}];
     const buttons = Array.from(document.querySelectorAll('.scenario-button'));
     const title = document.getElementById('scenario-title');
     const metric = document.getElementById('scenario-metric');

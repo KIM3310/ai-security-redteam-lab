@@ -3,7 +3,7 @@
 ## Public Demo
 
 - URL: https://kim3310.github.io/ai-security-redteam-lab/
-- Scope: credential-free synthetic demo surface for quick architecture inspection inspection.
+- Scope: credential-free synthetic demo surface for quick security evaluation.
 
 Repository: `ai-security-redteam-lab`
 Last updated: 2026-06-03 KST
