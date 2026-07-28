@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-- [Open the public GitHub Pages demo](https://kim3310.github.io/ai-security-redteam-lab/)
+- [Open the public GitHub Pages demo](https://ai-security-redteam-lab.pages.dev/)
 - Scope: credential-free, synthetic-data demo for security teams and technical evaluators.
 
 Self-contained test harness for prompt-injection, secret-leakage, and unsafe tool-use scenarios. The lab uses deterministic policy checks and synthetic cases so it can run in CI without external services.
@@ -107,7 +107,7 @@ All fixtures are synthetic.
 
 - Public entry: public sample attack catalog and static report
 - Paid boundary: private red-team scenario suite and recurring scan report dashboard
-- Canonical URL: https://kim3310.github.io/ai-security-redteam-lab/
+- Canonical URL: https://ai-security-redteam-lab.pages.dev/
 - Lead capture: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=ai-security-redteam-lab&inquiry=agent-reliability-audit#private-inquiry
 - Resource route: https://kim3310-doeon-kim-portfolio.pages.dev/resources/ai-security-redteam-lab/
 - Commercial route: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=ai-security-redteam-lab#service-offers

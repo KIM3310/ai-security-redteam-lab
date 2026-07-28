@@ -3,7 +3,7 @@
 Purpose: red-team scenario runner with risk taxonomy, prompt attack cases, and mitigation reports
 Free entry point: public sample attack catalog and static report
 Paid boundary: private red-team scenario suite and recurring scan report dashboard
-Canonical URL: https://kim3310.github.io/ai-security-redteam-lab/
+Canonical URL: https://ai-security-redteam-lab.pages.dev/
 Repository: https://github.com/KIM3310/ai-security-redteam-lab
 System architecture: https://github.com/KIM3310/ai-security-redteam-lab/blob/main/docs/system-architecture.md
 Revenue architecture: https://github.com/KIM3310/ai-security-redteam-lab/blob/main/docs/revenue-architecture.md

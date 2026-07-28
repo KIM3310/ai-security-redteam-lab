@@ -2,7 +2,7 @@
 
 ## Public Demo
 
-- URL: https://kim3310.github.io/ai-security-redteam-lab/
+- URL: https://ai-security-redteam-lab.pages.dev/
 - Scope: credential-free synthetic demo surface for quick security evaluation.
 
 Repository: `ai-security-redteam-lab`

@@ -8,7 +8,7 @@ Free AI red-team control checklist for prompt-injection and tool-risk reviews.
 
 - Audience: AI security reviewers and governance teams
 - Central resource: https://kim3310-doeon-kim-portfolio.pages.dev/resources/ai-security-redteam-lab/
-- Live system: https://kim3310.github.io/ai-security-redteam-lab/
+- Live system: https://ai-security-redteam-lab.pages.dev/
 - Advertising boundary: ads allowed only on public red-team education pages; exploit labs, security findings, and dashboards are ad-free
 - Current ad state: code-ready on the central resource; serving depends on Google AdSense site approval and consent policy.
 

@@ -6,7 +6,7 @@
   "audience": "AI security reviewers and governance teams",
   "public_resource": {
     "url": "https://kim3310-doeon-kim-portfolio.pages.dev/resources/ai-security-redteam-lab/",
-    "live_demo": "https://kim3310.github.io/ai-security-redteam-lab/",
+    "live_demo": "https://ai-security-redteam-lab.pages.dev/",
     "readiness_checklist": [
       "Architecture Summary",
       "Runtime And Data Flow",
