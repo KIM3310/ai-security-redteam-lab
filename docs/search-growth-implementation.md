@@ -11,6 +11,7 @@ This repository now exposes a search-readable service surface in addition to the
 | System architecture | [docs/system-architecture.md](./system-architecture.md) |
 | Public canonical URL | https://kim3310.github.io/ai-security-redteam-lab/ |
 | Lead capture URL | https://kim3310-doeon-kim-portfolio.pages.dev/?offer=ai-security-redteam-lab&inquiry=agent-reliability-audit#private-inquiry |
+| Repository resource route | https://kim3310-doeon-kim-portfolio.pages.dev/resources/ai-security-redteam-lab/ |
 | Commercial route | https://kim3310-doeon-kim-portfolio.pages.dev/?offer=ai-security-redteam-lab#service-offers |
 
 ## Search Positioning
