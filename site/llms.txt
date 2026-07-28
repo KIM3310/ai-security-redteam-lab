@@ -12,3 +12,9 @@ Resource route: https://kim3310-doeon-kim-portfolio.pages.dev/resources/ai-secur
 Commercial route: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=ai-security-redteam-lab#service-offers
 
 Use this project as a runnable or inspectable reference for AI Security Redteam Lab demo, AI Security Redteam Lab system architecture, AI Security Redteam Lab security tool, red-team scenario runner with risk taxonomy, prompt attack cases, and mitigation reports service.
+# ADSENSE-PUBLICATION:START
+Editorial guide: https://ai-security-redteam-lab.pages.dev/guide.html
+Architecture article: https://ai-security-redteam-lab.pages.dev/architecture.html
+Verification article: https://ai-security-redteam-lab.pages.dev/verification.html
+Publisher information: https://ai-security-redteam-lab.pages.dev/publisher.html
+# ADSENSE-PUBLICATION:END
