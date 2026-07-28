@@ -108,7 +108,7 @@ All fixtures are synthetic.
 - Public entry: public sample attack catalog and static report
 - Paid boundary: private red-team scenario suite and recurring scan report dashboard
 - Canonical URL: https://kim3310.github.io/ai-security-redteam-lab/
-- Lead capture: https://github.com/KIM3310/ai-security-redteam-lab/issues/new?template=service-inquiry.yml&title=Private+workspace+inquiry%3A+AI+Security+Redteam+Lab
+- Lead capture: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=ai-security-redteam-lab&inquiry=agent-reliability-audit#private-inquiry
 - Commercial route: https://kim3310-doeon-kim-portfolio.pages.dev/?offer=ai-security-redteam-lab#service-offers
 - Machine-readable offer: [docs/service-offer.json](docs/service-offer.json)
 - Search growth implementation: [docs/search-growth-implementation.md](docs/search-growth-implementation.md)

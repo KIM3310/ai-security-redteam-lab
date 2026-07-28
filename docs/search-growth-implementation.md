@@ -10,7 +10,7 @@ This repository now exposes a search-readable service surface in addition to the
 | Revenue architecture | [docs/revenue-architecture.md](./revenue-architecture.md) |
 | System architecture | [docs/system-architecture.md](./system-architecture.md) |
 | Public canonical URL | https://kim3310.github.io/ai-security-redteam-lab/ |
-| Lead capture URL | https://github.com/KIM3310/ai-security-redteam-lab/issues/new?template=service-inquiry.yml&title=Private+workspace+inquiry%3A+AI+Security+Redteam+Lab |
+| Lead capture URL | https://kim3310-doeon-kim-portfolio.pages.dev/?offer=ai-security-redteam-lab&inquiry=agent-reliability-audit#private-inquiry |
 | Commercial route | https://kim3310-doeon-kim-portfolio.pages.dev/?offer=ai-security-redteam-lab#service-offers |
 
 ## Search Positioning
@@ -28,5 +28,5 @@ The public surface stays crawlable and free. Paid value starts when a visitor wa
 
 - Keep the sitemap and robots file aligned with the final production domain.
 - Submit the canonical URL and sitemap in Google Search Console after the domain is connected.
-- The lead-capture path is a GitHub Issue Form so private workspace and paid-package requests create a trackable queue before payment infrastructure is added.
+- The lead-capture path is the central private inquiry route using `offer=ai-security-redteam-lab` and `inquiry=agent-reliability-audit`; preserve that lane ID when updating CTAs.
 - Keep exact free-tier quotas out of public promises because provider limits change.

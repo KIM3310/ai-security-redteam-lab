@@ -46,13 +46,14 @@ def scan_case(case: dict[str, object]) -> ScanResult:
                 )
             )
     categories = {finding.category for finding in findings}
+    expected_category_set = set(expected)
     risk_score = sum(SEVERITY_SCORE[finding.severity] for finding in findings)
     return ScanResult(
         name=str(case["name"]),
         risk_score=risk_score,
         findings=tuple(findings),
         expected_categories=expected,
-        passed_expectation=all(category in categories for category in expected),
+        passed_expectation=categories == expected_category_set,
     )
 
 
