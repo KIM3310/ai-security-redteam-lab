@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-- [Open the public GitHub Pages demo](https://ai-security-redteam-lab.pages.dev/)
+- [Open the public Cloudflare Pages demo](https://ai-security-redteam-lab.pages.dev/)
 - Scope: credential-free, synthetic-data demo for security teams and technical evaluators.
 
 Self-contained test harness for prompt-injection, secret-leakage, and unsafe tool-use scenarios. The lab uses deterministic policy checks and synthetic cases so it can run in CI without external services.
@@ -14,7 +14,6 @@ A credential-free AI security lab that turns abstract model risk into CI-friendl
 | Area | Details |
 |---|---|
 | Users | AI platform teams, security engineers, product teams shipping AI features, and governance teams. |
-| Technical path | Validate the demo, README, architecture notes, and quality gate before deeper workflow review. |
 | System scope | Prompt injection, secret leakage, unsafe tool use checks, deterministic fixtures, and reportable safety outputs. |
 | Operating boundary | Credential-free by design; extend with customer-specific policies only after scoping and approval. |
 | Evaluation path | Run the safety checks locally and inspect generated reports and failing-case examples. |
