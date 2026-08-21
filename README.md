@@ -1,5 +1,7 @@
 # AI Security Redteam Lab
 
+[![CI](https://github.com/KIM3310/ai-security-redteam-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/KIM3310/ai-security-redteam-lab/actions/workflows/ci.yml)
+
 ## Live Demo
 
 - [Open the public Cloudflare Pages demo](https://ai-security-redteam-lab.pages.dev/)
@@ -22,7 +24,7 @@ A credential-free AI security lab that turns abstract model risk into CI-friendl
 
 - **Start here:** Start with the policy categories, then open the generated Markdown report.
 - **Local demo:** Run `python3 scripts/run_scan.py` to create a credential-free red-team report.
-- **Checks:** Run `python3 -m unittest discover -s tests` and `python3 -m redteam_lab.scanner examples/cases.json`.
+- **Checks:** Run `make verify` (tests, fixture evaluation, and repository validators).
 
 ## Service Launch Playbook
 
@@ -55,7 +57,7 @@ flowchart LR
 ## Quick Start
 
 ```bash
-python3 -m unittest discover -s tests
+make verify
 python3 scripts/run_scan.py
 ```
 
@@ -76,8 +78,7 @@ The scan writes:
 ## Verification
 
 ```bash
-python3 -m unittest discover -s tests
-python3 -m redteam_lab.scanner examples/cases.json
+make verify
 ```
 
 All fixtures are synthetic.
